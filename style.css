@@ -1,0 +1,108 @@
+/* Reset some default margin and padding */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #380dae;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+  }
+  
+  /* Main content styles */
+  main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .courses {
+    margin-bottom: 40px;
+  }
+ 
+.enroll-btn {
+    background-color: #310c92;
+    color: #fff;
+  }
+  
+  .enroll-btn:hover {
+    background-color: #444;
+  }
+  
+  .course-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .course-item {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 6px rgba(11, 13, 126, 0.1);
+  }
+
+  .upload {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .upload form {
+    display: inline-block;
+    text-align: left;
+  }
+  
+  .upload label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .upload input[type="file"] {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .upload .btn {
+    display: inline-block;
+    background-color:#42a7f5;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  footer {
+    background-color: #f5f5f5;
+    padding: 10px 0;
+    text-align: center;
+  }
+  

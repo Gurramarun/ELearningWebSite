@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="chat.css">
+  <title>Courses - E-Learning Platform</title>
+</head>
+<body>
+  <header>
+    <h1>E-Learning Platform</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="courses.html">Courses</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="signup.html">Sign Up</a></li>
+        <li><a href="dashboard.html">Dashboard</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <main>
+    <section class="courses">
+      <h2>Available Courses</h2>
+      <ul class="course-list">
+        <li class="course-item">
+          <img src="course1.jpg" alt="Course 1">
+          <h3>Introduction to Programming</h3>
+          <p>Learn the fundamentals of programming...</p>
+          <button type="submit" class="btn">Enroll Now</button>
+        </li>
+        <li class="course-item">
+          <img src="course2.jpg" alt="Course 2">
+          <h3>Data Science Essentials</h3>
+          <p>Explore the world of data science...</p>
+          <button type="submit" class="btn">Enroll Now</button>
+        </li>
+        <li class="course-item">
+          <img src="course3.jpg" alt="Course 3">
+          <h3>Web Development Bootcamp</h3>
+          <p>Build dynamic websites and web applications...</p>
+          <button type="submit" class="btn">Enroll Now</button>
+        </li>
+        <li class="course-item">
+          <img src="course4.jpg" alt="Course 4">
+          <h3>Graphic Design Fundamentals</h3>
+          <p>Master the basics of graphic design...</p>
+          <button type="submit" class="btn">Enroll Now</button>
+        </li>
+        <li class="course-item">
+          <img src="course5.jpg" alt="Course 5">
+          <h3>Photography for Beginners</h3>
+          <p>Capture stunning photos like a pro...</p>
+          <button type="submit" class="btn">Enroll Now</button>
+        </li>
+      </ul>
+    <section class="upload">
+      <h2>Upload Documents</h2>
+      <form action="upload.php" method="post" enctype="multipart/form-data">
+        <label for="file">Select a File:</label>
+        <input type="file" name="file" id="file">
+        <button type="submit" class="btn">Upload</button>
+      </form>
+    </section>
+    <section class="assessments">
+        <h2>Online Assessments</h2>
+        <div class="assessment-item">
+          <h3>Quiz 1: Introduction to Programming</h3>
+          <p>This quiz covers the basics of programming concepts.</p>
+          <a href="Start Quiz.html" class="btn">Start Quiz</a>
+        </div>
+        <div class="assessment-item">
+          <h3>Midterm Exam: Data Science Essentials</h3>
+          <p>Test your understanding of data science principles.</p>
+          <a href="midterm.html" class="btn">Start Exam</a>
+        </div>
+        <!-- Add more assessment items here -->
+      </section>
+  </main>
+  <main>
+    <div id="chat-popup" class="chat-popup">
+        <div class="chat-header">
+          <h3>Chat</h3>
+          <button id="close-chat" class="close-btn">&times;</button>
+        </div>
+        <div class="chat-messages">
+          <!-- Display chat messages here -->
+        </div>
+        <div class="chat-input">
+          <input type="text" id="message-input" placeholder="Type your message...">
+          <button id="send-message" class="btn">Send</button>
+        </div>
+      </div>
+      <script src="chat.js"></script>
+    <footer>
+    <section class="about">
+      <h2>About Us</h2>
+      <p>Welcome to E-Learning Platform, your go-to destination for online education and skill enhancement. We are passionate about providing high-quality, interactive, and accessible courses to learners of all ages and backgrounds.</p>
+      <p>Our mission is to empower individuals by offering a diverse range of courses that cater to various interests and career paths. Whether you're a beginner looking to explore a new field or an expert aiming to advance your skills, we have something for you.</p>
+      <p>At E-Learning Platform, we believe in the potential of online education to transform lives and bridge the gap between learners and valuable knowledge. Our team of experienced instructors and educators is dedicated to creating engaging and effective learning experiences.</p>
+      <p>Join us on this journey of learning, growth, and discovery. Let's unlock your potential together.</p>
+    </section>
+  </main>
+    <p>&copy; 2023 E-Learning Platform</p>
+  </footer>
+</body>
+</html>
